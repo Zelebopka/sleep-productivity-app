@@ -1,0 +1,44 @@
+{
+  "features": [
+    "Age",
+    "Gender_encoded",
+    "Total Sleep Hours",
+    "Sleep Quality",
+    "Exercise (mins/day)",
+    "Caffeine Intake (mg)",
+    "Screen Time Before Bed (mins)",
+    "Work Hours (hrs/day)",
+    "Mood Score",
+    "Stress Level",
+    "Actual_Sleep_Duration",
+    "Sleep_Efficiency",
+    "Work_Sleep_Ratio",
+    "Caffeine_Per_Hour",
+    "Stress_Mood_Interaction",
+    "Exercise_Productivity",
+    "Late_Sleeper",
+    "Early_Riser",
+    "Age_Group",
+    "Sleep_Start_Hour",
+    "Sleep_End_Hour"
+  ],
+  "model_type": "Random Forest",
+  "performance": {
+    "accuracy": 1.0,
+    "roc_auc": 1.0
+  },
+  "class_balance": "balanced (upsampled)",
+  "feature_engineering": "extended (21 features)",
+  "top_features": [
+    "Screen Time Before Bed (mins)",
+    "Work Hours (hrs/day)",
+    "Exercise_Productivity",
+    "Work_Sleep_Ratio",
+    "Sleep_Efficiency",
+    "Caffeine Intake (mg)",
+    "Total Sleep Hours",
+    "Exercise (mins/day)",
+    "Actual_Sleep_Duration",
+    "Caffeine_Per_Hour"
+  ]
+}
